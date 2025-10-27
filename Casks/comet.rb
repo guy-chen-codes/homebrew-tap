@@ -2,7 +2,9 @@ cask "comet" do
   version :latest
   sha256 :no_check
 
-  url ENV["HOMEBREW_CASK_DOWNLOAD_URL"] || "https://www.perplexity.ai/rest/comet_latest.dmg"
+url ENV["HOMEBREW_CASK_DOWNLOAD_URL"] || \
+    `node /path/to/fetch_comet_url_stealth_cli.js`.strip
+
   name "Comet"
   desc "Chromium-based browser with integrated AI features by Perplexity"
   homepage "https://www.perplexity.ai/comet"
