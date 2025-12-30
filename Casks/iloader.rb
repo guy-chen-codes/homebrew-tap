@@ -1,4 +1,5 @@
 cask "iloader" do
+  version "1.1.6"
   sha256 :no_check
 
   url "https://github.com/nab138/iloader/releases/latest/download/iloader-darwin-universal.dmg"
