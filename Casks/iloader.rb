@@ -1,8 +1,7 @@
 cask "iloader" do
-  version "1.1.5"
   sha256 :no_check
 
-  url "https://github.com/nab138/iloader/releases/download/v#{version}/iloader-darwin-universal.dmg"
+  url "https://github.com/nab138/iloader/releases/latest/download/iloader-darwin-universal.dmg"
   name "iLoader"
   desc "Firmware loader tool"
   homepage "https://github.com/nab138/iloader"
