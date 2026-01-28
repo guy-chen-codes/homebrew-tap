@@ -12,5 +12,9 @@ cask "maplestory" do
 
   pkg "MapleStory.pkg"
 
+  caveats do
+    requires_rosetta
+  end
+
   uninstall pkgutil: "com.nexon.maplestory"
 end
