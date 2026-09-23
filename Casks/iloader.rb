@@ -1,6 +1,6 @@
 cask "iloader" do
-  version "2.3.1"
-  sha256 "91dc2b658fc1f4921dfb086e7799087153b48fd5925dad435fa90e564222298b"
+  version "2.3.3"
+  sha256 "9869447506cdbe990944f159f929b906cb71bb1d6d659efc52c8c9ca7675bcbd"
   url "https://github.com/nab138/iloader/releases/download/v#{version}/iloader-darwin-universal.dmg"
   name "iLoader"
   desc "Firmware loader tool"
